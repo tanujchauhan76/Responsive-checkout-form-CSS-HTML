@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Payment Form HTML5, CSS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h2>Checkout Form</h2>
+		<form id="form2" action="#">
+			<div class="division1">
+				<div class="half" id="fn">
+					<label><img src="user.png" width="40" height="43" alt="" ></label>
+					<input type="text" name="fname" id="fname" placeholder="  First Name">
+				</div>
+				<div class="half">
+					<label><img src="user.png" width="42" height="43" alt=""  ></label>
+					<input type="text" name="lname" id="lname" placeholder="  Last Name">
+				</div>
+				<div class="half" id="em">
+					<label><img src="env.png" width="40" height="43" alt="" ></label>
+					<input type="text" name="email" id="email" placeholder="  Email">
+				</div>
+
+				<div class="half">
+					<label><img src="phone.png" width="42" height="43" alt="" ></label>
+					<input type="tel" name="phone" id="phone" placeholder="  Phone" maxlength="10" >
+				</div>
+			</div><!-- Division 1 ends here -->
+			<div class="division2">
+				<div class="half2">
+					<select id="country" name="country">
+						<option value="Country">  Country</option>
+						<option value="India">India</option>
+						<option value="Canada">Canada</option>
+						<option value="Albania">Albania</option>
+						<option value="Algeria">Algeria</option>
+						<option value="American Samoa">American Samoa</option>
+						<option value="Andorra">Andorra</option>
+					</select>
+				</div>
+				<div class="half3">
+					<input type="text" name="city" id="city" placeholder="  City">
+				</div>
+				<div class="half4">
+					<input type="text" name="postalcode" id="postalcode" placeholder="  Postal Code" maxlength="6">
+				</div>
+
+				<div class="full">
+					<input type="text" name="address" id="address" placeholder="  Address">
+				</div>
+				<div class="full80">
+					<textarea id="additionalinfo" placeholder=" Additional Info"></textarea>
+				</div>
+
+			</div><!--  Division2 ends here -->
+
+			<div class="division3">
+
+				<input type="radio" id="visa" name="payment" value="visa" checked="checked" />
+				<label class="radiolbl" for="visa">  Visa  </label>
+
+				<input type="radio" id="mastercard" name="payment" value="mastercard" />
+				<label class="radiolbl" for="mastercard">  Mastercard    </label>
+
+				<input type="radio" id="paypal" name="payment" value="paypal" /> 
+				<label class="radiolbl" for="paypal">  Paypal  </label>
+
+				<div class="nameoncard">
+					<input type="text" name="nameoncard" id="nameoncard" placeholder="  Name on Card">
+				</div>
+				<div class="combine">
+					<div class="cardnumber">
+						<input type="number" name="cardnumber" id="cardnumber" placeholder="  Card Number">
+					</div>
+					<div class="cvv">
+						<input type="number" name="cvv" id="cvv" placeholder="  CVV2" maxlength="3">
+					</div></div>
+					<label for="month">  Expiration Date    </label>
+					<div class="month">
+						<select id="month" name="month">
+							<option value="Month"> Month</option>
+							<option value="Jan">Jan</option>
+							<option value="Feb">Feb</option>
+							<option value="Mar">Mar</option>
+							<option value="Apr">Apr</option>
+							<option value="May">May</option>
+							<option value="Jun">Jun</option>
+							<option value="Jul">Jul</option>
+							<option value="Aug">Aug</option>
+							<option value="Sep">Sep</option>
+							<option value="Oct">Oct</option>
+							<option value="Nov">Nov</option>
+							<option value="Dec">Dec</option>
+						</select>			
+					</div>
+					<div class="year">
+						<input type="text" name="year" id="year" placeholder="  Year">
+					</div>
+				</div><!--  Division3 ends here -->		
+
+				<div class="btn">
+					<input type="submit" name="Continue" value="Continue">
+				</div>
+			</form>
+		</div>
+
+	</body>
+	</html>

@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+html, body{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+	background: url('bg.jpg') no-repeat center /cover;
+}
+.container{
+	width: 600px;
+	margin: auto;
+	margin-top: 40px;
+	color:#5a5e63;
+}
+h2{
+	text-align: left;
+	margin: 0;
+	padding: 40px 10px 40px 45px;
+	width:585px;
+	background: #F4F4F9;
+	color:#7E7787;
+	box-shadow: 0 0 4px #7E7787;
+	font-weight: lighter;
+}
+#form2{
+	width:600px;
+	height: 835px;
+	background-color: #E7E6EB;
+	padding: 20px;
+	box-shadow: 0 0 3px #7268b1;
+}
+#form2 .half{
+	width: 45%;
+	display: inline-block;
+}
+#form2 div{
+	margin-bottom: 30px;
+}
+#form2 #fn, #form2 div#em{
+	margin-right:23px;
+}
+#form2 div.division1 input{
+	width:200px;
+	height: 40px;
+}
+#form2 div.division2 div.full input{
+	width:530px;
+	height: 40px;
+}
+#form2 div.division2 div.full80 input{
+	width:530px;
+	height: 80px;
+}
+#form2 select{
+	width:200px;
+	height: 44px;
+	margin-right:10px;
+}
+.division2 {
+	display: inline-block;
+	width:95%;
+	background-color:transparent;
+}
+.division2 .half2{
+	display: inline-block;
+}
+.division2 .half3{
+	margin-left: 0px;
+	display: inline-block;
+}
+.division2 .half4{
+	display: inline-block;
+}
+.division3 {
+	display: inline-block;
+	width:95%;
+	background-color:transparent;
+}
+
+#form2 div.division3 div.nameoncard {
+	margin-top: 30px;
+}
+#form2 div.division3 div.combine {
+	display: inline-block;
+	width:530px;
+	margin-bottom: 0;
+}
+
+#form2 div.division3 div.combine div.cardnumber {
+	display: inline-block;
+	width:300px;
+	margin-right: 15px;
+
+}
+#form2 div.division3 div.combine div.cvv {
+	display: inline-block;
+	width:60px;
+	margin-left: 150px;
+}
+
+#form2 div.division3 div.nameoncard input{
+	width: 530px;
+	height:40px;
+
+}
+
+div.division3 div.cardnumber input{
+	width:438px;
+	height:40px;
+}
+div.division3 div.cvv input{
+	width:60px;
+	height:40px;
+}
+.half3 #city{
+	width:150px;
+	height: 40px;
+	margin-left: 11px;
+	display: inline-block;
+}
+.half4 #postalcode{
+	margin-left: 20px;
+	width:125px;
+	height: 40px;
+}
+#form2 .half label{
+	display: inline-block;
+	vertical-align: top;
+}
+/*:Last Row*/
+#form2 .month {
+	width: 35%;
+	display: inline-block;
+	margin:10px 25px 10px 95px;
+}
+#form2 div.division3 div.year {
+	display: inline-block;
+} 
+#form2 div.division3 div.year input{
+	width:100px;
+	height:40px;
+} 
+.division1{
+	width:95%;
+	background-color: transparent;
+}
+.division3 #visa,.division3 #mastercard, .division3 #paypal{
+	vertical-align: top;
+	width: 15px;
+	height:15px;
+}
+.division3 .radiolbl{
+	vertical-align: top;
+	margin-right: 8px;
+}
+#address{
+	vertical-align: top;
+
+}
+#additionalinfo{
+	padding-top: 8px;
+	padding-left:2.5px;
+	width:530px;
+	height:80px;
+	vertical-align: top;
+	resize: none;
+}
+#form2 .division3{
+	margin-bottom: 0px;
+}
+#form2 .btn{
+	float:right;
+	/*width: 100%;
+	background-color: #F4F4F9;*/
+	margin-top: 0px;
+}
+#form2 .btn input{
+	width: 110px;
+	height:40px;
+	color:white;
+	background-color: #B95DCC;
+	margin-right: 35px;
+}
+.division1,.division2,.division3{
+	margin-left: 30px;
+}
+img{
+	margin:1px -3.5px 2px 0px;
+	border:1px solid gray;
+}
